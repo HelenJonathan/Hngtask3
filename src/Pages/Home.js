@@ -22,12 +22,12 @@ const Home = () => {
     return(
         <div className="body-container">
             <header className="header-section">
-                <div> 
-                    <h1 className="h1-header">Rent a <span className="color-specified">Place</span> away from <span className="color-specified">Home</span> in the <span className="color-specified">Metaverse</span> </h1>
-                    <p>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
+                <div className="headertext-container"> 
+                    <h1 className="h1-header">Rent a <span className="color-specified">Place</span> away from <span>Home</span> in the <span className="color-specified">Metaverse</span> </h1>
+                    <p className="p-header">we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
                     <div className="search"> 
-                        <input type="text" placeholder="Search for location" />
-                        <button>Search</button>
+                        <input type="text" placeholder="Search for location" className="input" />
+                        <button className="btn">Search</button>
                     </div>             
                 </div>
                 <div>
@@ -48,7 +48,7 @@ const Home = () => {
                     <p> OpenSea </p>
                 </div>
             </div>
-            <div>
+            <div className="grid-section-container">
                 <h1>Inspiration for your next adventure</h1>
                 <div className="grid-template">
                     <div className="frame-section">
@@ -174,7 +174,7 @@ const Home = () => {
 
             </div>
             <div className="threeimage-section">
-                <div>
+                <div className="threeimage-text">
                     <h1>Metabnb NFTs</h1>
                     <p>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
                     <button>Learn more</button>
