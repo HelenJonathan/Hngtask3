@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Red Rose';
+    font-style: normal;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+}
+
+.navitem {
+    color: #434343;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+.ul {
+    display: flex;
+}
+
+button {
+    width: 170px;
+    border-radius: 10px;border: transparent;
+    height: 48px;
+    background-color: #A02279;
+}
+
+.connect {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
