@@ -102,6 +102,12 @@ span {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 20px;
   padding-top: 20px;
+  
+}
+.frame-section {
+  
+  border: 1px solid #D7D7D7;
+border-radius: 15px;
 }
 
 .frame-images {
@@ -153,4 +159,16 @@ padding: 10px;
   color: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   background-color: #FFFFFF;
   padding: 10px;
+  margin-left: 10px;
+}
+
+.display {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.display-button {
+  background-color: #FFFFFF;
 }

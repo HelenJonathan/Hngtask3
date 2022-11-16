@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+.footer-container {
+    background-color: #1D1D1E;
+    color: #FFFFFF;
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ul{
+    display: flex;
+    padding: 2rem 0;
+}
+.copyright-section {
+    display: flex;
+}
+.footer-section {
+    margin-left: 3rem;
+}
+.footer-general {
+    margin-bottom: 1rem;
+  }
+h3 {
+    padding: 1rem 0 2rem 0;
+}
